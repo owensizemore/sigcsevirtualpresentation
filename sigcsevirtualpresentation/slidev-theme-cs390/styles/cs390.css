@@ -1,0 +1,107 @@
+/* Deck styling exported from cs390 slides/style.css. */
+/* Global deck styling, picked up by Slidev for every deck in this folder. */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300..700&display=swap');
+
+:root {
+  --slidev-theme-fontFamily: 'Lexend', ui-sans-serif, system-ui, sans-serif;
+  /* Single knob for the accent color used by callout boxes below. */
+  --callout-color: #0d9488;
+}
+
+/* Fira Code (the theme's mono font) ligates sequences like ->, ==, >= into
+   single glyphs. Disable that so code blocks show plain ASCII. */
+.slidev-layout pre,
+.slidev-layout code {
+  font-variant-ligatures: none;
+  font-feature-settings: 'calt' 0, 'liga' 0;
+}
+
+.slidev-layout {
+  font-family: 'Lexend', ui-sans-serif, system-ui, sans-serif;
+  /* PowerPoint-ish body size; the default theme runs closer to 1rem. */
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+/* Slide titles are h1/h2 and centre by default; body copy stays flush left. */
+.slidev-layout h1 { font-size: 3rem; line-height: 1.2; margin-bottom: 1.5rem; text-align: center; }
+.slidev-layout h2 { font-size: 2rem; line-height: 1.3; margin-bottom: 1rem; text-align: center; }
+.slidev-layout h3 { font-size: 1.5rem; line-height: 1.35; margin-bottom: 0.75rem; }
+
+.slidev-layout p,
+.slidev-layout ul,
+.slidev-layout ol,
+.slidev-layout table { margin-bottom: 1.25rem; }
+
+/* The theme sets p to a fixed 1.5rem line-height but li to 1.8x its own
+   font-size, so a bullet that wraps to a second line looks more loosely
+   spaced than a wrapped paragraph. Match li to the same fixed value as p. */
+.slidev-layout li { line-height: 1.5rem; }
+
+/* Breathing room between top-level bullets only; nested lists stay tight. */
+.slidev-layout > ul > li,
+.slidev-layout > ol > li { margin-bottom: 0.6rem; }
+
+.slidev-layout li li { margin-bottom: 0.15rem; }
+
+/* A nested list is a continuation of its parent bullet, not a new block. */
+.slidev-layout li > ul,
+.slidev-layout li > ol { margin-top: 0.3rem; margin-bottom: 0; }
+.slidev-layout li > p { margin-bottom: 0; }
+
+/* Bullets appear instantly on click rather than fading in. */
+.slidev-vclick-target { transition: none !important; }
+
+/* Highlighted callout box: same font/size as body text, colored from a
+   single --callout-color variable so the accent can be changed in one
+   place instead of in every slide that uses it. */
+.callout {
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0.5rem;
+  border-left: 8px solid var(--callout-color);
+  color: var(--callout-color);
+  background-color: color-mix(in srgb, var(--callout-color) 8%, white);
+}
+
+/* The blank lines needed for markdown-in-html wrap the content in a <p>,
+   which would otherwise add the global paragraph margin inside the padding. */
+.callout p { margin: 0; }
+
+html.dark .callout {
+  background-color: color-mix(in srgb, var(--callout-color) 30%, transparent);
+}
+
+/* Table header uses the callout accent; alternating rows reuse the theme's
+   own blockquote/code background so both follow the existing palette. */
+.slidev-layout table thead th {
+  background-color: var(--callout-color);
+  color: white;
+}
+
+.slidev-layout table tbody tr:nth-child(even) {
+  background-color: var(--slidev-code-background);
+}
+
+/* Opt-in type scale, selected per deck via headmatter `defaults: class:`.
+   Multiplies the sizes above; decks without the class are unaffected. */
+.slidev-layout.type-scale-two-thirds { --deck-type-scale: 0.67; }
+.slidev-layout.type-scale-two-thirds { font-size: calc(1.25rem * var(--deck-type-scale)); }
+.slidev-layout.type-scale-two-thirds h1 { font-size: calc(3rem   * var(--deck-type-scale)); }
+.slidev-layout.type-scale-two-thirds h2 { font-size: calc(2rem   * var(--deck-type-scale)); }
+.slidev-layout.type-scale-two-thirds h3 { font-size: calc(1.5rem * var(--deck-type-scale)); }
+
+/* Opt-in compact type, selected per slide (or deck) via frontmatter
+   `class: type-compact`. Unlike type-scale-two-thirds, the title (h1/h2/h3)
+   is left alone -- only body text shrinks and its line spacing tightens,
+   since h1/h2/h3 set their own font-size/line-height and don't inherit
+   these. */
+.slidev-layout.type-compact { font-size: 0.875rem; line-height: 1.3; }
+.slidev-layout.type-compact table th,
+.slidev-layout.type-compact table td { padding: 0.25rem 0.5rem; }
+
+/* Opt-in tighter bullet spacing, selected per deck via headmatter
+   `defaults: class:` (or per slide). Combine with other opt-in classes as
+   a space-separated string, e.g. `class: type-compact tight-bullets`. */
+.slidev-layout.tight-bullets > ul > li,
+.slidev-layout.tight-bullets > ol > li { margin-bottom: 0.25rem; }

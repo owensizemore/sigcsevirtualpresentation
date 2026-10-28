@@ -1,0 +1,24 @@
+version: '3'
+
+tasks:
+  default:
+    desc: Preview the theme on example.md (alias for start)
+    cmds:
+      - task: start
+
+  start:
+    desc: Serve example.md with this theme, live reload
+    deps: [install]
+    cmds:
+      - pnpm exec slidev example.md --open
+
+  install:
+    desc: Install the theme's own dependencies
+    cmds:
+      - pnpm install --ignore-workspace
+    sources: [package.json]
+
+  test:
+    desc: Run the auto-click transformer tests
+    cmds:
+      - npx vitest run setup/

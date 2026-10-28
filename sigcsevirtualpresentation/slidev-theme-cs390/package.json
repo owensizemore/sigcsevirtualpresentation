@@ -1,0 +1,35 @@
+{
+  "name": "slidev-theme-cs390",
+  "version": "0.1.0",
+  "description": "CompSci 390.05 deck theme: Slidev default theme + Lexend type, callouts, page numbers, auto-click bullets",
+  "license": "MIT",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "slidev": ">=v0.47.0"
+  },
+  "slidev": {
+    "defaults": {
+      "fonts": {
+        "mono": "Fira Code",
+        "sans": "Avenir Next,Nunito Sans",
+        "local": "Avenir Next"
+      }
+    }
+  },
+  "dependencies": {
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^53.0.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "markdown-it": "^14.1.0"
+    }
+  },
+  "packageManager": "pnpm@10.33.0"
+}

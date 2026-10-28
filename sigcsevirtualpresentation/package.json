@@ -1,0 +1,19 @@
+{
+  "name": "sigcsevirtualpresentation",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "latest",
+    "slidev-theme-cs390": "file:slidev-theme-cs390",
+    "vue": "^3.5.33"
+  },
+  "overrides": {
+    "markdown-it": "^14.1.0"
+  }
+}
