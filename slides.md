@@ -22,11 +22,11 @@ class: flex flex-col
 
 # Key terms and context setting
 
-- Programming problem-solving (PPS): Applying a problem-solving process (understanding problem statement, breaking down problem into steps, solving each step, combining sub-problems, evaluating solution correctness) to solving a problem with code
-- Learning objective: A statement outlining what a student should be able to achieve at the end of a course
+- <span v-mark="{ type: 'highlight', color: 'yellow', at: 1, delay: 300 }">Programming problem-solving (PPS)</span>: Applying a problem-solving process (understanding problem statement, breaking down problem into steps, solving each step, combining sub-problems, evaluating solution correctness) to solving a problem with code
+- <span v-mark="{ type: 'highlight', color: 'yellow', at: 2, delay: 300 }">Learning objective</span>: A statement outlining what a student should be able to achieve at the end of a course
   - Example: “Decomposition: Translate problem descriptions into steps that can be coded.”
-- Activity: Work for a course that is completed with access to lots of different resources (internet, AI, peers, etc.)
-- Assessment: Evaluates what a student has learned in a course, such as through a test or quiz taken during class time with restricted access to learning resources
+- <span v-mark="{ type: 'highlight', color: 'yellow', at: 3, delay: 300 }">Activity</span>: Work for a course that is completed with access to lots of different resources (internet, AI, peers, etc.)
+- <span v-mark="{ type: 'highlight', color: 'yellow', at: 4, delay: 300 }">Assessment</span>: Evaluates what a student has learned in a course, such as through a test or quiz taken during class time with restricted access to learning resources
 
 ---
 
@@ -40,7 +40,7 @@ class: flex flex-col
 
 <v-click>
 
-Instructors must identify ways that students can develop PPS skills by using GenAI to support their learning, rather than hinder it
+Instructors must identify ways that students can develop PPS skills by using GenAI to <span v-mark="{ type: 'underline', color: 'blue', at: 4, delay: 300 }">support</span> their learning, rather than <span v-mark="{ type: 'underline', color: 'red', at: 4, delay: 300 }">hinder</span> it
 
 </v-click>
 
@@ -66,12 +66,12 @@ autoClicks: false
 
 # Session Plan
 
-- Create posts in Padlet
-- Comment and react to others' posts
-- Break out rooms for each column
-  - If there are a lot of us, we'll have multiple rooms for some columns
-- Discuss in break out rooms and designate a note taker
-- Whole group discussion
+1. Create posts in Padlet
+2. Comment and react to others' posts
+3. Break out rooms for each column
+   - If there are a lot of us, we'll have multiple rooms for some columns
+4. Discuss in break out rooms and designate a note taker
+5. Whole group discussion
 
 ---
 autoClicks: false
@@ -79,7 +79,11 @@ autoClicks: false
 
 # Padlet
 
+<div class="text-center text-3xl pb-8">
+
 [https://duke.is/problem-solving-padlet](https://duke.is/problem-solving-padlet)
+
+</div>
 
 - Pick a question and respond by creating a post in that question’s column
   - Problem-solving steps
@@ -133,12 +137,14 @@ autoClicks: false
 
 <div class="h-full flex items-center justify-center">
   <img src="/qr-placeholder.svg" alt="QR code placeholder" class="w-44 h-44" />
+  <p>Slides</p>
 </div>
 
 ::right::
 
 <div class="h-full flex items-center justify-center">
   <img src="/qr-placeholder.svg" alt="QR code placeholder" class="w-44 h-44" />
+  <p>Padlet</p>
 </div>
 
 ::bottom::
