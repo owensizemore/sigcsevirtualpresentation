@@ -26,7 +26,7 @@ class: flex flex-col
 - <span v-mark="{ type: 'highlight', color: 'yellow', at: 2, delay: 300 }">Learning objective</span>: A statement outlining what a student should be able to achieve at the end of a course
   - Example: “Decomposition: Translate problem descriptions into steps that can be coded.”
 - <span v-mark="{ type: 'highlight', color: 'yellow', at: 3, delay: 300 }">Activity</span>: Work for a course that is completed with access to lots of different resources (internet, AI, peers, etc.)
-- <span v-mark="{ type: 'highlight', color: 'yellow', at: 4, delay: 300 }">Assessment</span>: Evaluates what a student has learned in a course, such as through a test or quiz taken during class time with restricted access to learning resources
+- <span v-mark="{ type: 'highlight', color: 'yellow', at: 4, delay: 300 }">Assessment</span>: Evaluates what a student has learned in a course, such as through a test or quiz (possibly proctored during class time with restricted access to learning resources)
 
 ---
 
