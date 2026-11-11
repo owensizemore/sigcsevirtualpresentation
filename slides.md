@@ -32,11 +32,11 @@ class: flex flex-col
 
 ## What does the research say?
 
-- Students' ability to engage in effective PPS involves applying metacognition and self-regulated learning skills
-  - Novices struggle to apply metacognitive strategies to programming errors, often failing to reconsider the problem or their goals
-  - Practicing self-regulation to reflect on current problem state and when to make adjustments helps avoid programming errors
-- GenAI may negatively impact PPS skills: "shepherding" students toward a predetermined solution or "drifting" from one AI-generated solution to the next without critical evaluation
-- GenAI can lead novices to over-estimate their own programming abilities or fail to recognize when AI-generated solutions are incorrect
+- Students' ability to engage in effective PPS involves applying metacognition and self-regulated learning skills[^1]
+  - Novices struggle to apply metacognitive strategies to programming errors, often failing to reconsider the problem or their goals[^2]
+  - Practicing self-regulation to reflect on current problem state and when to make adjustments helps avoid programming errors[^3][^4]
+- GenAI may negatively impact PPS skills: "shepherding" students toward a predetermined solution or "drifting" from one AI-generated solution to the next without critical evaluation[^5]
+- GenAI can lead novices to over-estimate their own programming abilities or fail to recognize when AI-generated solutions are incorrect[^6]
 
 <v-click>
 
@@ -44,21 +44,86 @@ Instructors must identify ways that students can develop PPS skills by using Gen
 
 </v-click>
 
-<!--
-<span v-mark.underline>
-Maybe add citations?
--->
+[^1]: Bergin, Reilly, and Traynor. Examining the role of self-regulated learning on introductory programming performance. ACM ICER, 2005.
+[^2]: Parham, Gugerty, Stevenson. Empirical evidence for the existence and uses of metacognition in computer science problem solving. ACM SIGCSE TS, 2010.
+[^3]: Li, Ko, and Zhu. What makes a great software engineer? IEEE/ACM ICSE, 2015.
+[^4]: Loksa et al. Programming, problem solving, and self-awareness: Effects of explicit guidance. ACM CHI, 2016.
+[^5]: Prather et al. “It’s weird that it knows what I want”: Usability and interactions with copilot for novice programmers. ACM Transactions on Computer-Human Interaction, 2023.
+[^6]: Prather et al. The robots are here: Navigating the generative ai revolution in computing education. ACM ITiCSE WGR, 2023.
+
+<style>
+.footnotes-sep {
+  margin: 0.25rem 0 !important;
+  opacity: 0.1;
+}
+.footnotes {
+  font-size: 0.5rem;
+  opacity: 0.75;
+  margin: -0.5rem 0 0 !important;
+}
+.footnotes-list {
+  margin: 0 !important;
+  padding-left: 1.25em;
+}
+.footnote-item {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.2 !important;
+}
+.footnote-item p {
+  margin: 0 !important;
+  line-height: 1.2 !important;
+}
+.footnote-backref {
+  display: none;
+}
+</style>
+
 ---
 
 ## Emerging learning objectives for PPS with GenAI
 
 - Before GenAI: Students should be able to apply a problem-solving process to programming problems, and apply the knowledge and skills needed to execute this process
-  - McCracken group: 5 problem-solving steps
-  - Lister et al.: Prerequisite knowledge required before engaging in PPS
+  - McCracken group: 5 problem-solving steps[^1]
+  - Lister et al.: Prerequisite knowledge required before engaging in PPS[^2]
 - Now: Some skills are less important and new skills are emerging
-  - Being able to write code might be less important than knowing how to read and scrutinize existing code
-  - Effective prompting for GenAI tools and validating whether GenAI-produced code is correct
-  - Emphasis on high level design and problem-solving skills first, and developing fine-grained syntax and programming construct skills later
+  - Being able to write code might be less important than knowing how to read and scrutinize existing code[^3]
+  - Effective prompting for GenAI tools and validating whether GenAI-produced code is correct[^4]
+  - Emphasis on high level design and problem-solving skills first, and developing fine-grained syntax and programming construct skills later[^5]
+
+[^1]: McCracken et al. A multinational, multi-institutional study of assessment of programming skills of first-year cs students. In ITiCSE-WGR, 2001.
+[^2]: Lister et al. A multi-national study of reading and tracing skills in novice programmers. SIGCSE Bull., 2004.
+[^3]: Kendon, Leanne Wu, and Aycock. AI-Generated code not considered harmful. In ACM WCCCE, 2023.
+[^4]: Albluwi et al. Computing education when writing code is no longer the challenge. Commun. ACM, 2026.
+[^5]: Kumar et al. Computer Science Curricula 2023. Association for Computing Machinery, 2024.
+
+<style>
+.footnotes-sep {
+  margin: 0.25rem 0 !important;
+  opacity: 0.1;
+}
+.footnotes {
+  font-size: 0.5rem;
+  opacity: 0.75;
+  margin: -0.5rem 0 0 !important;
+}
+.footnotes-list {
+  margin: 0 !important;
+  padding-left: 1.25em;
+}
+.footnote-item {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.2 !important;
+}
+.footnote-item p {
+  margin: 0 !important;
+  line-height: 1.2 !important;
+}
+.footnote-backref {
+  display: none;
+}
+</style>
 
 ---
 autoClicks: false
