@@ -191,28 +191,17 @@ class: flex flex-col
 </div>
 
 ---
-layout: two-cols-header
+class: flex flex-col
 autoClicks: false
 ---
 
 # Thank you for coming!
 <h3 style="text-align: center">The Problem with Problem Solving: How can Intro-Sequence CS Students Develop Problem-Solving Skills in the Age of AI?</h3>
 
-::left::
-
-<div class="h-full flex items-center justify-center">
-  <img src="/qr-placeholder.svg" alt="QR code placeholder" class="w-44 h-44" />
-  <p>Slides</p>
+<div class="flex-1 flex flex-col items-center justify-center gap-6 text-3xl text-center">
+  <p>Slides: <a href="https://duke.is/problem-solving-sigcsev2026">https://duke.is/problem-solving-sigcsev2026</a></p>
+  <p>Padlet: <a href="https://duke.is/problem-solving-padlet">https://duke.is/problem-solving-padlet</a></p>
 </div>
-
-::right::
-
-<div class="h-full flex items-center justify-center">
-  <img src="/qr-placeholder.svg" alt="QR code placeholder" class="w-44 h-44" />
-  <p>Padlet</p>
-</div>
-
-::bottom::
 
 <div class="text-center">
   <a href="mailto:ksm@cs.duke.edu">ksm@cs.duke.edu</a><br>
