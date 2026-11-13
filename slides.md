@@ -44,12 +44,12 @@ Instructors must identify ways that students can develop PPS skills by using Gen
 
 </v-click>
 
-[^1]: Bergin, Reilly, and Traynor. Examining the role of self-regulated learning on introductory programming performance. ACM ICER, 2005.
-[^2]: Parham, Gugerty, Stevenson. Empirical evidence for the existence and uses of metacognition in computer science problem solving. ACM SIGCSE TS, 2010.
-[^3]: Li, Ko, and Zhu. What makes a great software engineer? IEEE/ACM ICSE, 2015.
-[^4]: Loksa et al. Programming, problem solving, and self-awareness: Effects of explicit guidance. ACM CHI, 2016.
-[^5]: Prather et al. “It’s weird that it knows what I want”: Usability and interactions with copilot for novice programmers. ACM Transactions on Computer-Human Interaction, 2023.
-[^6]: Prather et al. The robots are here: Navigating the generative ai revolution in computing education. ACM ITiCSE WGR, 2023.
+[^1]: Bergin, Reilly, and Traynor. Examining the role of self-regulated learning on introductory programming performance. ACM ICER, 2005. https://doi.org/10.1145/1089786.1089794
+[^2]: Parham, Gugerty, Stevenson. Empirical evidence for the existence and uses of metacognition in computer science problem solving. ACM SIGCSE TS, 2010. https://doi.org/10.1145/1734263.1734406
+[^3]: Li, Ko, and Zhu. What makes a great software engineer? IEEE/ACM ICSE, 2015. https://doi.org/10.1109/ICSE.2015.335
+[^4]: Loksa et al. Programming, problem solving, and self-awareness: Effects of explicit guidance. ACM CHI, 2016. https://doi.org/10.1145/2858036.2858252
+[^5]: Prather et al. “It’s weird that it knows what I want”: Usability and interactions with copilot for novice programmers. ACM Transactions on Computer-Human Interaction, 2023. https://doi.org/10.1145/3617367
+[^6]: Prather et al. The robots are here: Navigating the generative AI revolution in computing education. ACM ITiCSE WGR, 2023. https://doi.org/10.1145/3623762.3633499
 
 <style>
 .footnotes-sep {
@@ -91,11 +91,11 @@ Instructors must identify ways that students can develop PPS skills by using Gen
   - Effective prompting for GenAI tools and validating whether GenAI-produced code is correct[^4]
   - Emphasis on high level design and problem-solving skills first, and developing fine-grained syntax and programming construct skills later[^5]
 
-[^1]: McCracken et al. A multinational, multi-institutional study of assessment of programming skills of first-year cs students. In ITiCSE-WGR, 2001.
-[^2]: Lister et al. A multi-national study of reading and tracing skills in novice programmers. SIGCSE Bull., 2004.
-[^3]: Kendon, Leanne Wu, and Aycock. AI-Generated code not considered harmful. In ACM WCCCE, 2023.
-[^4]: Albluwi et al. Computing education when writing code is no longer the challenge. Commun. ACM, 2026.
-[^5]: Kumar et al. Computer Science Curricula 2023. Association for Computing Machinery, 2024.
+[^1]: McCracken et al. A multinational, multi-institutional study of assessment of programming skills of first-year cs students. In ITiCSE-WGR, 2001. https://doi.org/10.1145/572133.572137
+[^2]: Lister et al. A multi-national study of reading and tracing skills in novice programmers. SIGCSE Bull., 2004. https://doi.org/10.1145/1041624.1041673
+[^3]: Kendon, Leanne Wu, and Aycock. AI-Generated code not considered harmful. In ACM WCCCE, 2023. https://doi.org/10.1145/3593342.3593349
+[^4]: Albluwi et al. Computing education when writing code is no longer the challenge. Commun. ACM, 2026. https://doi.org/10.1145/3808702
+[^5]: Kumar et al. Computer Science Curricula 2023. Association for Computing Machinery, 2024. https://doi.org/10.1145/3664191
 
 <style>
 .footnotes-sep {
@@ -138,6 +138,9 @@ autoClicks: false
 4. Discuss in break out rooms and designate a note taker
 5. Whole group discussion
 
+<!--
+Kristin picks up presenting here
+-->
 ---
 autoClicks: false
 ---
@@ -169,6 +172,9 @@ autoClicks: false
 - We will create breakout rooms based on the most popular columns/discussion topics, with 4-6 people in each room
 - At the end of the 5 minutes, join the room that is most interesting to you
 
+<!--
+Owen: after 5 minutes, DM Kristin list of breakout room names to create in Zoom
+-->
 ---
 autoClicks: false
 ---
