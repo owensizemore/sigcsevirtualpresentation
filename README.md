@@ -1,11 +1,5 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# The Problem with Problem Solving: How Can Intro-Sequence CS Students Develop Problem-Solving Skills in the Age of AI?
 
-To start the slide show:
+Presented at SIGCSE Virtual 2026, November 13, 2026
 
-- `npm install`
-- `npm run dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](slides-example.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
+https://dl.acm.org/doi/10.1145/3795860.3846203
