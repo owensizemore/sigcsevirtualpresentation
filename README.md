@@ -2,4 +2,6 @@
 
 Presented at [SIGCSE Virtual 2026](https://sigcsevirtual2026.acm.org/), November 13, 2026
 
-https://dl.acm.org/doi/10.1145/3795860.3846203
+Slides: https://owensizemore.github.io/sigcsevirtualpresentation/
+
+ACM DL link: https://dl.acm.org/doi/10.1145/3795860.3846203
